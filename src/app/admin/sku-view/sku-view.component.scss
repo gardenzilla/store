@@ -1,0 +1,93 @@
+.modal-card {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.modal-card-head {
+  background-color: white;
+  border-bottom: none;
+  .delete {
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 1000;
+    background-color: white;
+    color: black;
+    min-height: 30px;
+    min-width: 30px;
+  }
+  .delete:before, .delete:after {
+    background-color: black;
+  }
+}
+.modal-card-body {
+  margin-top: -50px;
+  z-index: 7;
+}
+.is-discount {
+  background-color: lightpink;
+}
+
+.images {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+
+  img {
+    order: 4;
+    max-height: 50px;
+    max-width: 50px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+  }
+}
+
+$from: 20px;
+$to: 23px;
+
+.he {
+  font-size: $from;
+  transition: font-size 1s;
+}
+
+.clicked {
+  position: relative;
+  font-size: $to;
+}
+
+button.demo {
+  background: #e5ac8e;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0.5em;
+  padding: 0 1em;
+  position: relative;
+  overflow: hidden;
+  line-height: 32px;
+  transition: font-size 0.2s;
+}
+
+button.demo::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+  transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+
+button.demo:hover::after {
+  animation: sheen 1s forwards;
+}
+
+button.demo:hover {
+  font-size: 16px;
+}
+
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+}

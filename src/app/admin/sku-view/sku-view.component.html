@@ -1,0 +1,57 @@
+<div class="modal is-active">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="columns is-mobile">
+        <div class="column is-5">
+          <figure class="image">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/l_4c6504da873d430a87d87d1b2d6989d3.jpg">
+          </figure>
+
+          <div class="images">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+            <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+          </div>
+
+        </div>
+        <div class="column">
+          <p class="subtitle is-5 mt-5 he" [ngClass]="{'clicked':clicked}">Plantella univerzális
+            tápoldat, 1 liter</p>
+          <p class="is-size-7 has-text-success pb-1">Raktáron 5 db</p>
+          <p class="is-size-5 has-text-weight-bold pb-1">{{1900 | gzHuf}}</p>
+          <!-- <p><button class="button is-small is-gray is-outlined is-rounded">Vásárlás</button> -->
+          <div class="notification is-warning mt-5">
+            Jelenleg telefonon vásárolhatsz nálunk, és személyesen veheted át a
+            rendelésedet.
+          </div>
+          <p class="subtitle is-6">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span>Telefon:
+                <a href="tel:+36304375490"> +36 30 437 54 90</a>
+              </span>
+            </span>
+          </p>
+          <p class="subtitle is-6">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fas fa-at"></i>
+              </span>
+              <span>Email: hello@gardenzilla.hu</span>
+            </span>
+          </p>
+          <button class="button demo" (click)="clicked=!clicked">Click meg</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

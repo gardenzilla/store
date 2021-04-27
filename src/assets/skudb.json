@@ -1,0 +1,145 @@
+[
+  {
+    "sku": 119,
+    "sku_name": "Example A",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example B",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example C",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example D",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example E",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example F",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example G",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example H",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example I",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example J",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  },
+  {
+    "sku": 120,
+    "sku_name": "Example K",
+    "image_cover": "dfsef34rw4fwef.jpg",
+    "images": [
+      "asdasdasdasd.jpg",
+      "asdasdasd.jpg"
+    ],
+    "stock": 12,
+    "price_net": 1000,
+    "price_gross": 1270,
+    "depreciated": false
+  }
+]

@@ -1,0 +1,21 @@
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-mobile is-multiline mb-3">
+      <div class="column is-3-desktop is-6-mobile has-text-centered" *ngFor="let item of skus">
+        <figure class="image container is-128x128">
+          <img src="https://static.gardenzilla.hu/sku_images/1758/sized/s_4c6504da873d430a87d87d1b2d6989d3.jpg">
+        </figure>
+        <p class="is-size-6 pt-3">{{item.sku_name}}</p>
+        <p class="is-size-7 has-text-success pb-2">Raktáron {{item.stock}} db</p>
+        <p class="is-size-6 has-text-weight-bold pb-1">{{item.price_gross | gzHuf}}</p>
+        <p><button class="button is-small is-gray is-outlined is-rounded">Vásárlás</button>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<sku-view></sku-view>
